@@ -5,6 +5,15 @@ Local content and PII filtering library for LLM pipelines. Runs entirely locally
 ## Installation
 
 ```bash
+pip install git+https://github.com/shakirkazi/LLMGuard.git
+python -m spacy download en_core_web_sm
+```
+
+For development:
+
+```bash
+git clone https://github.com/shakirkazi/LLMGuard.git
+cd LLMGuard
 pip install -e ".[dev]"
 python -m spacy download en_core_web_sm
 ```
