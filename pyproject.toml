@@ -9,6 +9,7 @@ description = "Local content and PII filtering library for LLM pipelines"
 readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
+authors = [{name = "Shakir Kazi", email = "shakirkazi@gmail.com"}]
 dependencies = [
     "pydantic>=2.0",
     "presidio-analyzer>=2.2",
